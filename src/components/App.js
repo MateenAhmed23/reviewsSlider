@@ -3,11 +3,11 @@ import React, {useEffect,useState} from 'react'
 import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import { FaQuoteRight } from 'react-icons/fa';
 
-import data from '../data';
+import people from '../data';
 
 function App() {
 
-    const [poeple,setPeople] = useState(data)
+    const [poeple,setPeople] = useState(people)
     const [index,setIndex] = useState(1);
 
     useEffect(()=>{
